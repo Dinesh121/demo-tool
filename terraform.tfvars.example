@@ -1,0 +1,18 @@
+subscription_id      = "57281d6d-7da8-435e-b25d-87a16b2e7a32"
+resource_group_name  = "rg-app-workload"
+location             = "eastus"
+vm_name              = "vm-workload-01"
+vm_size              = "Standard_B2s"
+admin_username       = "azureadmin"
+ssh_public_key       = "null"
+admin_password       = null # set TF_VAR_admin_password for Windows / password Linux
+
+application          = "sample-app"
+environment          = "dev"
+owner                = "platform-team@contoso.com"
+cost_center          = "CC-0000"
+business_unit        = "engineering"
+data_classification  = "internal"
+criticality          = "medium"
+compliance_framework = "not_assessed"
+network_segmentation = "internal"
